@@ -6,9 +6,13 @@ Derzeit unterstützter Drucker Zebra printer.
 
 
 ## install
+``` bash
 python -m venv venv
 . venv/bin/activate
 pip install -r requirements.txt
+```
  
 ## run
+``` bash
 python main.py
+```
