@@ -113,7 +113,7 @@ def QRCode_svg(tag: str, filename: str = 'output.svg'):
 
 def print_file(filename: str = "output.svg"):
     print(f"{filename=}")
-    sp.run(["/usr/bin/inkscape", "--export-filename=output.pdf", "output.svg"])
+    sp.run(["/usr/bin/inkscape", "--export-filename=output.pdf", filename])
     print('Zebra print')
     # sp.run(["lpr"] + ["-P", "Zebra-Technologies-ZTC-LP-2824-Plus",
     #                   "-o", "orientation-requested=6",  # rotate by 180deg
