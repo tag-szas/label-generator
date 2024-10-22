@@ -1,0 +1,9 @@
+# Virtualenv
+venv
+__pycache__
+output.svg
+output.pdf
+
+normal_label.svg
+label.svg
+qr_label.svg
